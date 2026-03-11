@@ -33,7 +33,7 @@ public class Main {
         for (Medicamento medicamento : arrayParaOrdenar) {
             System.out.println(medicamento);
         } 
-
+        
         System.out.println("\n --- REMOVENDO O PRIMEIRO MEDICAMENTO DA LISTA ---");
         lista.remover(0); 
         System.out.println("Novo total de medicamentos: " + lista.contarItens());
