@@ -1,0 +1,17 @@
+# Compilados 
+*.class
+*.jar
+*.war
+*.ear
+
+# Pastas  do VSCode
+bin/
+out/
+.vscode/
+.settings/
+.classpath
+.project
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
