@@ -9,7 +9,7 @@ public class Main {
         lista.add(new Analgesico("A2", "Alginac", 1000));
         lista.add(new Antibiotico("B2", "Azitromicina", 500));
 
-        System.out.println("--- LISTA ORIGINAL ---");
+        System.out.println("--- LISTA TODOS MEDICAMENTOS ---");
         lista.exibirTodos();
 
         System.out.println("Total de Medicamentos cadastrados: " + lista.contarItens());
@@ -33,7 +33,7 @@ public class Main {
         for (Medicamento medicamento : arrayParaOrdenar) {
             System.out.println(medicamento);
         } 
-        
+
         System.out.println("\n --- REMOVENDO O PRIMEIRO MEDICAMENTO DA LISTA ---");
         lista.remover(0); 
         System.out.println("Novo total de medicamentos: " + lista.contarItens());
