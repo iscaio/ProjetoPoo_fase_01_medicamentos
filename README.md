@@ -11,7 +11,7 @@ O sistema cumpre os seguintes requisitos:
 3. **Recuperar:** Busca de item por atributo (Código).
 4. **Listar:** Exibição de todos os itens criados.
 5. **Contar:** Retorno do total de itens na base.
-6. **Ordenar:** Organização por criticidade via algoritmo QuickSort.
+6. **Ordenar:** Organização por Dosagem Mg via algoritmo QuickSort
 
 ## Ferramentas e Conceitos
 
