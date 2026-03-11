@@ -16,11 +16,12 @@ public class Main {
         System.out.println("---\n");
         
         System.out.println("--- BUSCANDO MEDICAMENTO PELO CÓDIGO ---");
-        Medicamento buscado = lista.buscarPorMedicamento("B1");
-        if (buscado != null) {
-            System.out.println("Medicamento encontrado: " + buscado.getDescricao() + " (" + buscado.getDosagemMg() + "mg)");
-        } else {
-            System.out.println("Medicamento não encontrado. ");
+
+        try{
+            Medicamento buscado = lista.buscarPorMedicamento("A2");
+            System.out.println("Medicamento encontrado: "+ buscado.getDescricao() + "(" + buscado.getDosagemMg() + "mg)");
+        }catch(RuntimeException e){
+            System.out.println(e.getMessage());
         }
         System.out.println("---\n");
 
